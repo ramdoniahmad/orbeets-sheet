@@ -1,22 +1,24 @@
 {
-  "name": "codrops-library",
+  "name": "orbeets-sheet",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/amiechen/codrops-library.git"
+    "url": "git+ssh://git@https://github.com/ramdoniahmad/orbeets-sheet.git"
   },
   "author": "Amie Chen",
   "license": "MIT",
   "bugs": {
-    "url": "https://gitlab.com/amiechen/codrops-library/issues"
+    "url": "https://https://github.com/ramdoniahmad/orbeets-sheet/issues"
   },
-  "homepage": "https://gitlab.com/amiechen/codrops-library#README",
+  "homepage": "https://https://github.com/ramdoniahmad/orbeets-sheet#README",
   "devDependencies": {
+    "parcel": "^2.14.4",
     "tailwindcss": "^0.6.4"
   },
   "dependencies": {

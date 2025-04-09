@@ -1,0 +1,42 @@
+.tippy-popper[x-placement^="top"] .tippy-tooltip.light-theme .tippy-arrow {
+  border-top: 7px solid #fff;
+  border-left: 7px solid #0000;
+  border-right: 7px solid #0000;
+}
+
+.tippy-popper[x-placement^="bottom"] .tippy-tooltip.light-theme .tippy-arrow {
+  border-bottom: 7px solid #fff;
+  border-left: 7px solid #0000;
+  border-right: 7px solid #0000;
+}
+
+.tippy-popper[x-placement^="left"] .tippy-tooltip.light-theme .tippy-arrow {
+  border-top: 7px solid #0000;
+  border-bottom: 7px solid #0000;
+  border-left: 7px solid #fff;
+}
+
+.tippy-popper[x-placement^="right"] .tippy-tooltip.light-theme .tippy-arrow {
+  border-top: 7px solid #0000;
+  border-bottom: 7px solid #0000;
+  border-right: 7px solid #fff;
+}
+
+.tippy-tooltip.light-theme {
+  color: #26323d;
+  background-color: #fff;
+  box-shadow: 0 0 20px 4px #9aa1b126, 0 4px 80px -8px #24282f40, 0 4px 4px -2px #5b5e6926;
+}
+
+.tippy-tooltip.light-theme .tippy-backdrop {
+  background-color: #fff;
+}
+
+.tippy-tooltip.light-theme .tippy-roundarrow {
+  fill: #fff;
+}
+
+.tippy-tooltip.light-theme[data-animatefill] {
+  background-color: #0000;
+}
+/*# sourceMappingURL=orbeets-sheet.ce601ce5.css.map */

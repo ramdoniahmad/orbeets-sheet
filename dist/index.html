@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Orbeets Sheet - Access Quick</title>
+		<meta name="description" content="A responsive web app template with common components like profile, list, tabs, menu views. Made for Codrops exclusively.">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="/orbeets-sheet.5b8185d3.css">
+		<link rel="stylesheet" href="/orbeets-sheet.ce601ce5.css">
+	</head>
+	<body class="bg-grey-lighter font-sans antialiased">
+		<!--[if lt IE 7]>
+			<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+		<div class="fixed bg-grey-lighter pin z-50 flex justify-center items-center" id="loading">
+			<svg width="60px" height="60px" viewbox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="morphing">
+				<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+					<g transform="translate(-1178.000000, -87.000000)">
+						<g transform="translate(1159.000000, 0.000000)">
+							<g transform="translate(0.000000, 87.000000)">
+								<g transform="translate(19.000000, 0.000000)">
+									<circle id="small-circle" fill="#5661B3" cx="30" cy="30" r="30"></circle>
+									<path id="moon" d="M30.5,49.7304688 C40.7172679,49.7304688 30.5,43.266096 30.5,33.0488281 C30.5,22.8315603 40.7172679,12 30.5,12 C20.2827321,12 11.0390625,20.6479665 11.0390625,30.8652344 C11.0390625,41.0825022 20.2827321,49.7304688 30.5,49.7304688 Z" fill="#F4E1E0"></path>
+									<circle id="big-circle" fill="#070707" cx="31" cy="31" r="11"></circle>
+								</g>
+							</g>
+						</g>
+					</g>
+				</g>
+			</svg>
+		</div>
+		<div class="bg-indigo-darker text-center p-4 px-6 flex items-center">
+			<div class="hidden lg:block lg:w-1/4 xl:w-1/5 pr-8">
+				<a href="#" class="flex justify-start pl-6">
+				<img src="/wishlist-default.4c5b5310.svg" class="" alt="logo">
+			</a>
+			</div>
+			<div class="lg:hidden pr-3" id="mobile-nav-trigger">
+				<div class="toggle p-2 block"><span></span></div>
+			</div>
+			<div class="flex flex-grow items-center lg:w-3/4 xl:w-4/5">
+				<span class="relative w-full">
+				<input type="search" placeholder="Search" class="w-full text-sm text-white transition border border-transparent focus:outline-none focus:border-indigo placeholder-white rounded bg-indigo-medium py-1 px-2 pl-10 appearance-none leading-normal ds-input">
+				<div class="absolute search-icon" style="top: .5rem; left: .8rem">
+				<svg class="fill-current pointer-events-none text-white w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20">
+					<path d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"></path>
+				</svg>
+				</div>
+			</span>
+				<a href="#" class="text-sm text-right text-white py-2 px-3 hover:text-grey-dark no-underline hidden lg:block lg:w-1/3 px-6">Hi, Broooh</a>
+			</div>
+		</div>
+		<!-- Main -->
+		<div class="flex">
+			<!-- Side Nav -->
+			<nav class="absolute lg:relative lg:flex lg:text-sm bg-indigo-darker lg:bg-transparent pin-l pin-r py-4 px-6 lg:pt-10 lg:pl-12 lg:pr-6 -mt-1 lg:mt-0 overflow-y-auto lg:w-1/5 lg:border-r z-40 hidden">
+				<ul class="list-reset mb-8 w-full">
+					<li class="ml-2 mb-4">
+						<div class="flex" id="sidenav-categories-trigger">
+							<img src="/home-default.08054254.svg" alt="home-icon" class="w-4 h-4 mr-2">
+							<div class="hover:cursor-pointer text-white lg:text-indigo-darkest no-underline font-medium w-full relative">
+								Home
+							</div>
+						</div>
+					</li>
+				</ul>
+			</nav>
+			<!-- Content -->
+			<div class="flex flex-1 flex-col md:px-6 pt-10" id="content">
+				<!-- Title -->
+				<div class="px-6 md:px-0 flex justify-between items-center -order-1">
+					<div>
+						<h2 class="font-normal">Summary &amp; Report</h2>
+						<!-- <p class="text-grey-dark mt-2">Interesting Stats</p> -->
+					</div>
+					<a href="https://drive.google.com/drive/u/2/folders/1ACJU6ag6wm6VEpvw4Ks-IyDIGlndILwh" target="_blank">
+					<button class="bg-indigo-dark hover:bg-indigo-darker text-white text-sm py-2 px-4 rounded-full transition-normal hover:shadow hover:translate-y-1 active:translate-y-1 focus:outline-none">Go To Presentation</button>
+				</a>
+				</div>
+				<!-- Desktop Stats -->
+				<!-- <div class="hidden px-6 md:px-0 mt-4 md:flex flex-wrap order-1 md:-order-1 md:shadow-md js-tab-pane" id="section-stats">
+					<div class="p-4 px-6 w-full md:w-1/2 rounded md:rounded-r-none bg-white shadow-md md:shadow-none">
+						<h4>Your favourite authors in this category</h4>
+						<table class="mt-4 w-full">
+							<thead class="p-2 text-sm leading-loose border-b text-indigo">
+								<tr>
+									<td>Name</td>
+									<td class="text-center">Owned/Wishlist</td>
+									<td class="text-right">Nationality</td>
+								</tr>
+							</thead>
+							<tbody class="p-2 leading-loose text-sm">
+								<tr class="border-b">
+									<td class="py-2">Yohji Yamamoto</td>
+									<td class="py-2 text-center">5/4</td>
+									<td class="py-2 text-right">Japan</td>
+								</tr>
+								<tr class="border-b">
+									<td class="py-2">Sato Oki</td>
+									<td class="py-2 text-center">1/3</td>
+									<td class="py-2 text-right">Japan</td>
+								</tr>
+								<tr>
+									<td class="py-2">Amaya Arzuaga</td>
+									<td class="py-2 text-center">1/1</td>
+									<td class="py-2 text-right">Spain</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="w-full md:w-1/2 p-4 md:pt-12 md:pl-1 mt-4 md:mt-0 lg:pt-12 lg:pl-8 rounded md:rounded-r-none bg-white shadow-md md:shadow-none">
+						<div class="flex">
+							<div class="w-1/2">
+								<p class="text-indigo text-sm p-2">Most read format</p>
+								<p class="font-medium text-sm pl-2">Print</p>
+							</div>
+							<div class="w-1/2">
+								<p class="text-indigo text-sm p-2">Total read/own</p>
+								<p class="font-medium text-sm pl-2">4/7</p>
+							</div>
+						</div>
+						<div class="pt-6">
+							<p class="text-indigo text-sm p-2">Most re-read book</p>
+							<p class="font-medium text-sm pl-2 leading-normal">Just My Type: A Book About Fonts
+								<br><span class="font-normal">by Simon Garfield</span></p>
+						</div>
+					</div>
+				</div> -->
+				<!-- Overview -->
+				<div class="px-6 md:px-0 flex items-baseline justify-between border-b-2 border-grey-light mt-6 order-0 lg:order-1">
+					<h4 class="hidden md:inline-block text-grey-dark font-normal">Overviews</h4>
+					<div>
+						<div class="inline-block md:hidden no-underline border-indigo pb-2 px-2 text-sm mr-2 text-indigo-darkest hover:cursor-pointer js-tab relative" data-tab="section-stats">Stats</div>
+						<div class="no-underline inline-block border-indigo pb-2 px-2 text-sm mr-2 text-indigo-darkest hover:cursor-pointer js-tab active relative" data-tab="section-library">Members <span class="text-indigo text-xs">(10)</span></div>
+						<div class="no-underline inline-block border-indigo pb-2 px-2 text-sm text-indigo-darkest hover:cursor-pointer js-tab relative" data-tab="section-picks">Documents</div>
+					</div>
+				</div>
+				<!-- Members -->
+				<div class="hidden px-2 pt-2 md:px-0 flex-wrap order-2 pb-8 js-tab-pane active" id="section-library">
+					<div class="flex flex-row sm:flex-col items-center sm:items-start w-full xs:w-1/2 sm:w-1/3 md:w-1/5 p-4 js-book">
+						<img src="/profile-default.8ed2316c.svg" alt="book-01" class="w-1/3 sm:w-full shadow-md transition-normal hover:brighter hover:translate-y-1 hover:shadow-lg hover:border-indigo">
+						<div class="ml-3 sm:ml-0 w-2/3 sm:w-full">
+							<p class="text-sm my-2 font-medium sm:font-normal">Abdurrahman Zaky Ramadhan</p>
+							<label for="" class="hidden sm:inline-block rounded-full bg-indigo-medium text-white px-2 py-1/2 text-xs">7+ YOE</label>
+						</div>
+					</div>
+					<div class="flex flex-row sm:flex-col items-center sm:items-start w-full xs:w-1/2 sm:w-1/3 md:w-1/5 p-4">
+						<img src="/profile-default.8ed2316c.svg" alt="book-02" class="w-1/3 sm:w-full shadow-md transition-normal hover:brighter hover:translate-y-1 hover:shadow-lg hover:border-indigo js-book">
+						<div class="ml-3 sm:ml-0 w-2/3 sm:w-full"> 
+							<p class="text-sm my-2 font-medium sm:font-normal">Nanda Sulthan Estupratama</p>
+							<label for="" class="hidden sm:inline-block rounded-full bg-indigo-medium text-white px-2 py-1/2 text-xs">5+ YOE</label>
+						</div>
+					</div>
+					<div class="flex flex-row sm:flex-col items-center sm:items-start w-full xs:w-1/2 sm:w-1/3 md:w-1/5 p-4">
+						<img src="/profile-default.8ed2316c.svg" alt="book-03" class="w-1/3 sm:w-full shadow-md transition-normal hover:brighter hover:translate-y-1 hover:shadow-lg hover:border-indigo js-book">
+						<div class="ml-3 sm:ml-0 w-2/3 sm:w-full">
+							<p class="text-sm my-2 font-medium sm:font-normal">Ahmad Ramdoni</p>
+							<label for="" class="hidden sm:inline-block rounded-full bg-indigo-medium text-white px-2 py-1/2 text-xs">5+ YOE</label>
+						</div>
+					</div>
+					<div class="flex flex-row sm:flex-col items-center sm:items-start w-full xs:w-1/2 sm:w-1/3 md:w-1/5 p-4">
+						<img src="/profile-default.8ed2316c.svg" alt="book-04" class="w-1/3 sm:w-full shadow-md transition-normal hover:brighter hover:translate-y-1 hover:shadow-lg hover:border-indigo js-book">
+						<div class="ml-3 sm:ml-0 w-2/3 sm:w-full">
+							<p class="text-sm my-2 font-medium sm:font-normal">Falah Rafif Aiddi</p>
+							<label for="" class="hidden sm:inline-block rounded-full bg-indigo-medium text-white px-2 py-1/2 text-xs">3+ YOE</label>
+						</div>
+					</div>
+					<div class="flex flex-row sm:flex-col items-center sm:items-start w-full xs:w-1/2 sm:w-1/3 md:w-1/5 p-4">
+						<img src="/profile-default.8ed2316c.svg" alt="book-05" class="w-1/3 sm:w-full shadow-md transition-normal hover:brighter hover:translate-y-1 hover:shadow-lg hover:border-indigo js-book">
+						<div class="ml-3 sm:ml-0 w-2/3 sm:w-full">
+							<p class="text-sm my-2 font-medium sm:font-normal">Hasanudin</p>
+							<label for="" class="hidden sm:inline-block rounded-full bg-indigo-medium text-white px-2 py-1/2 text-xs">3+ YOE</label>
+						</div>
+					</div>
+					<div class="flex flex-row sm:flex-col items-center sm:items-start w-full xs:w-1/2 sm:w-1/3 md:w-1/5 p-4">
+						<img src="/profile-default.8ed2316c.svg" alt="book-06" class="w-1/3 sm:w-full shadow-md transition-normal hover:brighter hover:translate-y-1 hover:shadow-lg hover:border-indigo js-book">
+						<div class="ml-3 sm:ml-0 w-2/3 sm:w-full">
+							<p class="text-sm my-2 font-medium sm:font-normal">Siti Hamidah Maftuhah</p>
+							<label for="" class="hidden sm:inline-block rounded-full bg-indigo-medium text-white px-2 py-1/2 text-xs">2+ YOE</label>
+						</div>
+					</div>
+					<div class="flex flex-row sm:flex-col items-center sm:items-start w-full xs:w-1/2 sm:w-1/3 md:w-1/5 p-4">
+						<img src="/profile-default.8ed2316c.svg" alt="book-07" class="w-1/3 sm:w-full shadow-md transition-normal hover:brighter hover:translate-y-1 hover:shadow-lg hover:border-indigo js-book">
+						<div class="ml-3 sm:ml-0 w-2/3 sm:w-full">
+							<p class="text-sm my-2 font-medium sm:font-normal">Neyna Anggraeny</p>
+							<label for="" class="hidden sm:inline-block rounded-full bg-indigo-medium text-white px-2 py-1/2 text-xs">1+ YOE</label>
+						</div>
+					</div>
+					<div class="flex flex-row sm:flex-col items-center sm:items-start w-full xs:w-1/2 sm:w-1/3 md:w-1/5 p-4">
+						<img src="/profile-default.8ed2316c.svg" alt="book-07" class="w-1/3 sm:w-full shadow-md transition-normal hover:brighter hover:translate-y-1 hover:shadow-lg hover:border-indigo js-book">
+						<div class="ml-3 sm:ml-0 w-2/3 sm:w-full">
+							<p class="text-sm my-2 font-medium sm:font-normal">M Islah Faizuddin</p>
+							<label for="" class="hidden sm:inline-block rounded-full bg-indigo-medium text-white px-2 py-1/2 text-xs">&lt; 1 YOE</label>
+						</div>
+					</div>
+					<div class="flex flex-row sm:flex-col items-center sm:items-start w-full xs:w-1/2 sm:w-1/3 md:w-1/5 p-4">
+						<img src="/profile-default.8ed2316c.svg" alt="book-07" class="w-1/3 sm:w-full shadow-md transition-normal hover:brighter hover:translate-y-1 hover:shadow-lg hover:border-indigo js-book">
+						<div class="ml-3 sm:ml-0 w-2/3 sm:w-full">
+							<p class="text-sm my-2 font-medium sm:font-normal">Oktavia Ramadani</p>
+							<label for="" class="hidden sm:inline-block rounded-full bg-indigo-medium text-white px-2 py-1/2 text-xs">&lt; 1 YOE</label>
+						</div>
+					</div>
+					<div class="flex flex-row sm:flex-col items-center sm:items-start w-full xs:w-1/2 sm:w-1/3 md:w-1/5 p-4">
+						<img src="/profile-default.8ed2316c.svg" alt="book-07" class="w-1/3 sm:w-full shadow-md transition-normal hover:brighter hover:translate-y-1 hover:shadow-lg hover:border-indigo js-book">
+						<div class="ml-3 sm:ml-0 w-2/3 sm:w-full">
+							<p class="text-sm my-2 font-medium sm:font-normal">Layla Fitria Putri Sofian</p>
+							<label for="" class="hidden sm:inline-block rounded-full bg-indigo-medium text-white px-2 py-1/2 text-xs">&lt; 1 YOE</label>
+						</div>
+					</div>
+				</div>
+				<!-- Documents -->
+				<div class="hidden flex-wrap order-2 pt-0 md:pt-6 md:pb-8 js-tab-pane" id="section-picks">
+					<div class="flex justify-start items-center p-5 px-6 w-full sm:w-1/2" style="background-color: #fbc164">
+						<img src="/wishlist-default.4c5b5310.svg" alt="pick" class="shadow-md w-1/3">
+						<div class="ml-4 mt-1 w-2/3">
+							<p class="font-medium">SOP Orbeets</p>
+							<p class="mt-3 text-sm">PMO, Project, SLA Support.</p>
+							<a href="https://drive.google.com/drive/u/2/folders/1cqXsCtzYJYrRtbFXdY0oj-OOa0_4KOyi" target="_blank">
+								<button class="shadow-md mt-3 bg-grey-lightest hover:bg-white text-indigo-darker text-xs py-2 px-4 rounded-full transition-normal hover:shadow hover:translate-y-1 active:translate-y-1 focus:outline-none">More Info</button>
+							</a>
+						</div>
+					</div>
+					<div class="flex justify-start items-center p-5 px-6  w-full sm:w-1/2" style="background-color: #f1cecd">
+						<img src="/wishlist-default.4c5b5310.svg" alt="pick" class="shadow-md w-1/3">
+						<div class="ml-4 mt-1 w-2/3">
+							<p class="font-medium">Academy Orbeets</p>
+							<p class="mt-3 text-sm">Technical & Non Technical.</p>
+							<a href="https://drive.google.com/drive/u/2/folders/1L7TQiJDBLn7xx08__Ed_0F9xz46B6ODW" target="_blank">
+								<button class="shadow-md mt-3 bg-grey-lightest hover:bg-white text-indigo-darker text-xs py-2 px-4 rounded-full transition-normal hover:shadow hover:translate-y-1 active:translate-y-1 focus:outline-none">More Info</button>
+							</a>
+						</div>
+					</div>
+					<div class="flex justify-start items-center p-5 px-6  w-full sm:w-1/2" style="background-color: #ece7e9">
+						<img src="/wishlist-default.4c5b5310.svg" alt="pick" class="shadow-md w-1/3">
+						<div class="ml-4 mt-1 w-2/3">
+							<p class="font-medium">Account Credential</p>
+							<p class="mt-3 text-sm">Gmail, Discord, Github, Gitlab, Jira, Clickup, Server Access, dll.</p>
+							<a href="https://docs.google.com/document/u/2/d/11QN31oBxsRurIX7a7iu3GTxCt6jKH5IG/edit?usp=drive_web&ouid=102501460506330258316&rtpof=true" target="_blank">
+								<button class="shadow-md mt-3 bg-grey-lightest hover:bg-white text-indigo-darker text-xs py-2 px-4 rounded-full transition-normal hover:shadow hover:translate-y-1 active:translate-y-1 focus:outline-none">More Info</button>
+							</a>
+						</div>
+					</div>
+					<div class="flex justify-start items-center p-5 px-6  w-full sm:w-1/2" style="background-color: #d0e3e8">
+						<img src="/wishlist-default.4c5b5310.svg" alt="pick" class="shadow-md w-1/3">
+						<div class="ml-4 mt-1 w-2/3">
+							<p class="font-medium">Recap Support</p>
+							<p class="mt-3 text-sm">Support Production AMFS, AFI.</p>
+							<a href="https://docs.google.com/spreadsheets/d/1mu2lG2XTYZR3IH0i98ELdZi_ic7kEx6NlYey1mDa9Kg/edit?gid=1395780715#gid=1395780715" target="_blank">
+								<button class="shadow-md mt-3 bg-grey-lightest hover:bg-white text-indigo-darker text-xs py-2 px-4 rounded-full transition-normal hover:shadow hover:translate-y-1 active:translate-y-1 focus:outline-none">More Info</button>
+							</a>
+						</div>
+					</div>
+
+					<div class="flex justify-start items-center p-5 px-6 w-full sm:w-1/2" style="background-color: #fbc164">
+						<img src="/wishlist-default.4c5b5310.svg" alt="pick" class="shadow-md w-1/3">
+						<div class="ml-4 mt-1 w-2/3">
+							<p class="font-medium">Template Test Scenario</p>
+							<p class="mt-3 text-sm">Version of test scenario.</p>
+							<a href="https://drive.google.com/drive/folders/1KhxOmwlzfdoUqCdldCtRXPo2lCQn82zu" target="_blank">
+								<button class="shadow-md mt-3 bg-grey-lightest hover:bg-white text-indigo-darker text-xs py-2 px-4 rounded-full transition-normal hover:shadow hover:translate-y-1 active:translate-y-1 focus:outline-none">More Info</button>
+							</a>
+						</div>
+					</div>
+					<div class="flex justify-start items-center p-5 px-6  w-full sm:w-1/2" style="background-color: #f1cecd">
+						<img src="/wishlist-default.4c5b5310.svg" alt="pick" class="shadow-md w-1/3">
+						<div class="ml-4 mt-1 w-2/3">
+							<p class="font-medium">Sharing Session</p>
+							<p class="mt-3 text-sm">Needs tech and general sharing.</p>
+							<a href="https://drive.google.com/drive/u/2/folders/13Pr3KdbQShosd5p7ZXiGkHF9fxgipfay" target="_blank">
+								<button class="shadow-md mt-3 bg-grey-lightest hover:bg-white text-indigo-darker text-xs py-2 px-4 rounded-full transition-normal hover:shadow hover:translate-y-1 active:translate-y-1 focus:outline-none">More Info</button>
+							</a>
+						</div>
+					</div>
+					<div class="flex justify-start items-center p-5 px-6  w-full sm:w-1/2" style="background-color: #ece7e9">
+						<img src="/wishlist-default.4c5b5310.svg" alt="pick" class="shadow-md w-1/3">
+						<div class="ml-4 mt-1 w-2/3">
+							<p class="font-medium">Development Innovation</p>
+							<p class="mt-3 text-sm">Folder development inovasi.</p>
+							<a href="https://drive.google.com/drive/u/2/folders/1EDxM4WDci9LAz-_qZzymhn_EEJX2lNEt" target="_blank">
+								<button class="shadow-md mt-3 bg-grey-lightest hover:bg-white text-indigo-darker text-xs py-2 px-4 rounded-full transition-normal hover:shadow hover:translate-y-1 active:translate-y-1 focus:outline-none">More Info</button>
+							</a>
+						</div>
+					</div>
+					<div class="flex justify-start items-center p-5 px-6  w-full sm:w-1/2" style="background-color: #d0e3e8">
+						<img src="/wishlist-default.4c5b5310.svg" alt="pick" class="shadow-md w-1/3">
+						<div class="ml-4 mt-1 w-2/3">
+							<p class="font-medium">Evaluation Apps</p>
+							<p class="mt-3 text-sm">Support Production AMFS, AFI.</p>
+							<a href="https://drive.google.com/drive/u/2/folders/16c2iqYhv3o5wfzklQJJzKZ53TO3y8y58" target="_blank">
+								<button class="shadow-md mt-3 bg-grey-lightest hover:bg-white text-indigo-darker text-xs py-2 px-4 rounded-full transition-normal hover:shadow hover:translate-y-1 active:translate-y-1 focus:outline-none">More Info</button>
+							</a>
+						</div>
+					</div>
+					<div class="flex justify-start items-center p-5 px-6 w-full sm:w-1/2" style="background-color: #fbc164">
+						<img src="/wishlist-default.4c5b5310.svg" alt="pick" class="shadow-md w-1/3">
+						<div class="ml-4 mt-1 w-2/3">
+							<p class="font-medium">Improvement Suggestion</p>
+							<p class="mt-3 text-sm">Suggest for improvement Apps.</p>
+							<a href="https://docs.google.com/presentation/u/2/d/1Xv7bQ8P69eX03xssSwe4pXm2Afpkmk2D/edit?usp=drive_web&ouid=102501460506330258316&rtpof=true" target="_blank">
+								<button class="shadow-md mt-3 bg-grey-lightest hover:bg-white text-indigo-darker text-xs py-2 px-4 rounded-full transition-normal hover:shadow hover:translate-y-1 active:translate-y-1 focus:outline-none">More Info</button>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Profile -->
+			<div class="hidden absolute pin-b z-10 lg:relative lg:block w-full lg:w-1/5 bg-grey-lighter-2 px-6 pt-10" id="profile">
+				<div class="flex items-center mb-6">
+					<svg width="60px" height="60px" viewbox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="avatar">
+						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+							<g transform="translate(-1178.000000, -87.000000)">
+								<g transform="translate(1159.000000, 0.000000)">
+									<g transform="translate(0.000000, 87.000000)">
+										<g transform="translate(19.000000, 0.000000)">
+											<circle id="small-circle" fill="#5661B3" cx="30" cy="30" r="30"></circle>
+											<path id="moon" d="M30.5,49.7304688 C40.7172679,49.7304688 30.5,43.266096 30.5,33.0488281 C30.5,22.8315603 40.7172679,12 30.5,12 C20.2827321,12 11.0390625,20.6479665 11.0390625,30.8652344 C11.0390625,41.0825022 20.2827321,49.7304688 30.5,49.7304688 Z" fill="#F4E1E0"></path>
+											<circle id="big-circle" fill="#070707" cx="31" cy="31" r="11"></circle>
+										</g>
+									</g>
+								</g>
+							</g>
+						</g>
+					</svg>
+					<div class="ml-3">
+						<p>Orbeets Squad</p>
+						<p class="text-grey-dark mt-1 text-sm">Establised since 2021</p>
+					</div>
+				</div>
+				<div class="my-4 border-t pt-4">
+					<h3 class="text-indigo-dark font-normal">Productivity</h3>
+				</div>
+				<div class="mt-6">
+					<!-- <p class="text-grey-dark mt-1 text-sm">PMO</p> -->
+					<div class="flex items-start mt-2">
+						<!-- <img src="./images/profile-default.svg" alt="read" class="w-1/6 lg:w-1/5 max-w-tiny shadow-md block transition-normal hover:brighter"> -->
+						<div class="ml-3">
+							<p class="mt-1 leading-normal">Total Support</p>
+							<p class="text-indigo text-sm mt-1">14</p>
+						</div>
+					</div>
+					<div class="flex items-start mt-2">
+						<!-- <img src="./images/profile-default.svg" alt="read" class="w-1/6 lg:w-1/5 max-w-tiny shadow-md block transition-normal hover:brighter"> -->
+						<div class="ml-3">
+							<p class="mt-1 leading-normal">Total Run Project</p>
+							<p class="text-indigo text-sm mt-1">AMFS (3)</p>
+						</div>
+					</div>
+					<div class="flex items-start mt-2">
+						<!-- <img src="./images/profile-default.svg" alt="read" class="w-1/6 lg:w-1/5 max-w-tiny shadow-md block transition-normal hover:brighter"> -->
+						<div class="ml-3">
+							<p class="mt-1 leading-normal">Total Run Innovation</p>
+							<p class="text-indigo text-sm mt-1">9</p>
+						</div>
+					</div>
+					<div class="flex items-start mt-2">
+						<!-- <img src="./images/profile-default.svg" alt="read" class="w-1/6 lg:w-1/5 max-w-tiny shadow-md block transition-normal hover:brighter"> -->
+						<div class="ml-3">
+							<p class="mt-1 leading-normal">Hot Project</p>
+							<p class="text-indigo text-sm mt-1">AFI (1)</p>
+							<p class="text-indigo text-sm mt-1">AMFS (4)</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- <div class="hidden p-4" id="popup">
+			<h3 class="font-medium">Popeye Aug 2018</h3>
+			<p class="text-sm mt-2 mb-3">Curabitur quis ut pharetra odio id, vitae eros eget tristique maecenas, ullamcorper vitae.</p>
+			<div class="relative">
+				<select class="block appearance-none w-full text-sm bg-white border border-grey-light hover:border-grey pl-3 py-1 pr-8 rounded shadow leading-normal focus:outline-none focus:shadow-outline" id="tippy-select">
+					<option>Start</option>
+					<option>Loaned</option>
+					<option selected>Finished</option>
+				</select>
+				<div class="pointer-events-none absolute pin-y pin-r flex items-center px-2 text-grey-darker">
+					<svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+						<path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+					</svg>
+				</div>
+			</div>
+		</div> -->
+		<script src="/orbeets-sheet.ecbad1cf.js" async="" defer=""></script>
+	<script src="/orbeets-sheet.3464ddca.js"></script></body>
+</html>
